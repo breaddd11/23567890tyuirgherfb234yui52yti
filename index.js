@@ -5,6 +5,7 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
 import { hostname } from "node:os";
 import { fileURLToPath } from "url";
+import { Analytics } from "@vercel/analytics/react"
 
 const publicPath = fileURLToPath(new URL("./public/", import.meta.url));
 
